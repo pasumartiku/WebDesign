@@ -41,6 +41,7 @@ p.three {
 p.four {
  font-family: "arial";
  color: #000000;
+ font-style: italic
 }
 h2{
  text-align: center;
