@@ -10,9 +10,38 @@ h1{
  text-align: Center; color: #400FF0; size: 5;
 }
 body{
-  
-   float;  center;/>
-  <h2 text-align: center;>Kunaal Pasumarti</h2>
-  <body background-color:#65FCBE; float: middle;>
-  width="35%" float: right;/>
-  
+  background-color:#65FCBE; float: middle;>
+}
+p.one {
+ font-family: "Arial";
+}
+img.image1 {
+ width: 20%;
+ height: 20%;
+ alt: "girl reading a book";
+ align: center;
+}
+img.image2 {
+ alt: "Internet browsers";
+ width: 20%;
+ height: 20%;
+ float: right;
+}
+p.two {
+ font-family: "Times New Roman";
+ color: #FF0000;
+ border-style: solid;
+ font-weight: bold;
+}
+p.three {
+ font-family: "arial";
+ color: #0000CD;
+ font-style: italic
+}
+p.four {
+ font-family: "arial";
+ color: #000000;
+}
+h2{
+ text-align: center;
+}
