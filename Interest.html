@@ -5,19 +5,25 @@
     <link href="Style.css" type="text/css"
           rel="stylesheet" />
 </head>
-  <body style="background:#66e0ff">. <!-- chose color from
-https://www.w3schools.com/colors/colors_picker.asp-->.
-    <!--what will happen if you added a ; after #d6f5d6 color? try
-it... -->
+  <body style="background:#66e0ff">. 
+    
   <body>
     <header>
       <p class="one"> <a href= "Page2.html">Page 2</a> </p>
-      <header style="background: White;"> <font color="#65FCBE"> <!--
-(this is a comment, no can see it but the designer
-      the color I chose I got from this site:
-https://color.adobe.com/create/color-wheel-->
-        <!--why is there a ; after the color white? what happens if
-that is removed? -->
+      <p <a href= "JavaScript">JavaScript</a> </p>
+    <buyyon id= "Page2C">Page 2</button>
+      <header style="background: White;"> <font color="#65FCBE"> 
+        
+        <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+        
         <h1 style= "text-align: Center;"> Video Games </h1>
         <img
 src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlkZW8lMjBnYW1lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" width
@@ -38,6 +44,23 @@ alt="Internet browsers" width="35%" style="float: right;"/></p>
             <p class="three"> Systems: Different types of platforms for games, and dedicated gaming systems.</p>
             <p class="four"> Popular Videogames: Commonly played videogames, and different types of popular games. </p>
          
+                           
+                           function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+                          
+                           <script> 
+                           var navigation2 = document.getElementById("Page2C");
+                           var pageChange = function();
+                           window.location.href = "Page2.html";
+                           };
+                           navigation2.addEventListener("click", "pageChange");
+ };
 
 <section>
        
