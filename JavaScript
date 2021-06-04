@@ -17,7 +17,7 @@ rel="stylesheet" />
 </head>
 <body>
 <p> This is the JavaScript page. </p>
-
+<button> Non-functioning button </button>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
