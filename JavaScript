@@ -1,13 +1,8 @@
-
-
-
-
-
-
-
-
-
-<div class="topnav" id="myTopnav">
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <div class="topnav" id="myTopnav">
   <a href="Interest.html" class="active">Home</a>
   <a href="Page2.html>Page 2</a>
   <a href="JavaScript">JavaScript</a>
@@ -16,10 +11,14 @@
   </a>
 </div>
 
+  <title>JavaScript</title>
+<link href="Style.css" type="text/css"
+rel="stylesheet: />
+</head>
+<body>
+<p> This is the JavaScript page. </p>
 
-
-
-
+<script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -28,3 +27,18 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
